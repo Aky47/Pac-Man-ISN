@@ -69,26 +69,17 @@ def map():
             
            if carte[pas] == 0:
                can.create_rectangle(rang_x,rang_y,rang_x+32,rang_y+32,fill="red")
-               
-               #print(carte[pas],end='')
-               #print('(',rang_x,':',rang_y,')',end='')
-               print(rang_x)
+              
 
            if carte[pas] == 1:
                can.create_rectangle(rang_x,rang_y,rang_x+32,rang_y+32,fill="yellow")
-               
-               #print(carte[pas],end='')
-               #print('(',rang_x,':',rang_y,')',end='')
-               print(rang_x)
+              
 
            if carte[pas] == 2:
                can.create_rectangle(rang_x,rang_y,rang_x+32,rang_y+32,fill="blue")
-               
-               #print(carte[pas],end='')
-               #print('(',rang_x,':',rang_y,')',end='')
-               print(rang_x)
+          
            pas=pas+1
-        print('')
+       
 
 
            
@@ -142,7 +133,28 @@ can.pack()
 
 fen.mainloop()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 """
+MAP VERSION BETA 0.92 
  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
  2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
  2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
